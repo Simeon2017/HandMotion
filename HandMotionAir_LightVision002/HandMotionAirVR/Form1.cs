@@ -55,7 +55,7 @@ namespace _HandMotionAirVR
 		string ipString = "127.0.0.1";
 		int port = 50377;
 		string stCurrentDir = null;
-		public const string UnityExecName = "HandAction001";
+		public const string UnityExecName = "Robotis_vsido_connect";
 		string UnityExecNameFullPath = null;
 		Process UnityProcess = null;
 
@@ -1120,6 +1120,11 @@ namespace _HandMotionAirVR
 		private void button9_Click(object sender, EventArgs e)
 		{
 			SEND_CLIENT_INTERVAL = int.Parse(textBox15.Text);
+		}
+
+		private void label34_Click(object sender, EventArgs e)
+		{
+
 		}
 	}
 }

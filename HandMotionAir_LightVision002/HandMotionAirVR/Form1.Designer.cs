@@ -739,20 +739,21 @@
 			// 
 			this.label34.AutoSize = true;
 			this.label34.Font = new System.Drawing.Font("MS UI Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
-			this.label34.Location = new System.Drawing.Point(167, 437);
+			this.label34.Location = new System.Drawing.Point(150, 437);
 			this.label34.Name = "label34";
-			this.label34.Size = new System.Drawing.Size(164, 16);
+			this.label34.Size = new System.Drawing.Size(224, 16);
 			this.label34.TabIndex = 46;
-			this.label34.Text = "人工知能試験システム";
+			this.label34.Text = "ROBOTIS-MINI Hand Motion";
+			this.label34.Click += new System.EventHandler(this.label34_Click);
 			// 
 			// label35
 			// 
 			this.label35.AutoSize = true;
 			this.label35.Location = new System.Drawing.Point(111, 459);
 			this.label35.Name = "label35";
-			this.label35.Size = new System.Drawing.Size(284, 12);
+			this.label35.Size = new System.Drawing.Size(286, 12);
 			this.label35.TabIndex = 47;
-			this.label35.Text = "－ニューラルネットワーク適用ハンドアクション識別 ver0.33－";
+			this.label35.Text = "－ニューラルネットワーク適用ハンドモーション識別 ver0.33－";
 			// 
 			// label36
 			// 
