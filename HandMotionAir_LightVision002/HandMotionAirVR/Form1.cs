@@ -17,6 +17,8 @@ using System.Net.Sockets;
 using System.Diagnostics;
 using MLApp;
 
+// For ROBOTIS-MINI
+//
 // 識別対応
 // 1      2      3      4       5       6       7       8       9       10
 // 0      1      2      3       4       5       6       7       8        9
