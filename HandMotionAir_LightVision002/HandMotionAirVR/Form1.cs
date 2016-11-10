@@ -41,7 +41,10 @@ namespace _HandMotionAirVR
 		const int DATA_SIZE_15SEC = 55;
 		const int DATA_SIZE_25SEC = 92;
 		public const uint BAUD_RATE = 115200;
+
+		// ここの MacAddress を変更する必要があるかも？？？
 		public string[] SensorMacAddress = { "810208A1", "810209F8" };
+		//
 		static public string UserProfile = Environment.GetEnvironmentVariable("USERPROFILE");
 		static public string HandMotionDir = UserProfile + @"\Documents\HandMotionAir";
 		static public string MfileDir = HandMotionDir + @"\Mfiles";
