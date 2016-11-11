@@ -45,6 +45,7 @@ namespace _HandMotionAirVR
 		// ここの MacAddress を変更する必要があるかも？？？
 		public string[] SensorMacAddress = { "810208A1", "810209F8" };
 		//
+		//
 		static public string UserProfile = Environment.GetEnvironmentVariable("USERPROFILE");
 		static public string HandMotionDir = UserProfile + @"\Documents\HandMotionAir";
 		static public string MfileDir = HandMotionDir + @"\Mfiles";
