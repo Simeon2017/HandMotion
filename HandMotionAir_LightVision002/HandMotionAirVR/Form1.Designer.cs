@@ -222,9 +222,9 @@
 			this.label6.AutoSize = true;
 			this.label6.Location = new System.Drawing.Point(10, 9);
 			this.label6.Name = "label6";
-			this.label6.Size = new System.Drawing.Size(230, 12);
+			this.label6.Size = new System.Drawing.Size(231, 12);
 			this.label6.TabIndex = 13;
-			this.label6.Text = "Hand Action 識別 Using ニューラルネットワーク";
+			this.label6.Text = "Hand Motion 識別 Using ニューラルネットワーク";
 			// 
 			// comboBox1
 			// 
