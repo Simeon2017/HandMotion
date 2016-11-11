@@ -890,7 +890,7 @@
 			this.Controls.Add(this.groupBox2);
 			this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
 			this.Name = "Form1";
-			this.Text = "Hand Action LightVision Copyleft(C) 2016 HAL東京 先端ロボット開発学科";
+			this.Text = "Hand Motion  Copyleft(C) 2016 HAL東京 先端ロボット開発学科";
 			this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.Form1_FormClosing);
 			this.Load += new System.EventHandler(this.Form1_Load);
 			this.groupBox1.ResumeLayout(false);
